@@ -2,8 +2,22 @@
 # Rapport
 
 **Skriv din rapport här!**
-
-_Du kan ta bort all text som finns sedan tidigare_.
+Ändrade värdet i string.xml till texten "changed the value",  
+```
+<resources>
+    <string name="app_name">Changed the value</string>
+</resources>
+```
+Ändrade även "label i  så att rubriken lyder "new text" istället för
+det som står i "bodyn"
+``` 
+<activity
+ android:name=".MainActivity"
+ android:label="New text"
+ android:theme="@style/AppTheme.NoActionBar">
+ <intent-filter>
+ <action android:name="android.intent.action.MAIN" />
+ ```
 
 ## Följande grundsyn gäller dugga-svar:
 
